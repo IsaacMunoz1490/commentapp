@@ -1,0 +1,40 @@
+body {
+	background-color: steelblue;
+	text-align:center;
+
+}
+
+h1 {
+	margin-bottom:50px;
+}
+
+input {
+	font-size: 30px;
+	letter-spacing: 5px;
+	background-color: #fff;
+	width: 60%;
+	height: 100px;
+	margin-bottom:40px;
+}
+textarea { 
+	font-size: 30px;
+	letter-spacing: 5px;
+	background-color: #fff;
+
+}
+
+li {
+	list-style-type: none;
+	text-align:left;
+	font-size:20px;
+}
+textarea {
+	height: 100px;
+	width: 60%;
+}
+button {
+	font-size: 30px;
+	border-radius: 30%;
+	width: 40%;
+	height: 50px;
+
