@@ -2,45 +2,33 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Comment</title>
-
+<!--  Bootstrap  -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 	<!-- Main Css -->
-	
 <link rel="stylesheet" href="css/main.css">
-
+<!--  Fonts  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Titillium+Web&display=swap" rel="stylesheet">
 </head>
 <body>
-
 <div class="container">
+        <h1>Comment Box</h1>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<h1>Comment in Here</h1>
-
 				<form id="todoForm">
 					<div class="form-group">
-						<input id="username" class="form-control" placeholder="username">
-					</div>
-					<div class="form-group">
-						<textarea id="comment" class="form-control" placeholder="comment"></textarea>
-					</div>
-					<div class="form-group">
-						<button type="button" onclick="todoList()" class="btn btn-primary btn-lg">Send</button>
+						<input id="username" class="form-control" placeholder="Name">
+						<input id="input" class="form-control" placeholder="Comment"></input>
+						<button class="btn" style="color: white;" onclick="todoList()">Send</button>
 					</div>
 				</form>
-				<ul id="commentList" class="list-group">
-				</ul>
+				<p id="commentList" class="comments">
+				</p>
 			</div>
 		</div>
-	</div>
-
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
 <script src="js/main.js"></script>
 </body>
 </html>

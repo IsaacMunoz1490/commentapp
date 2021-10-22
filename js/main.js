@@ -1,15 +1,15 @@
 function todoList() {
 	var username = document.getElementById("username").value
-	var comment = document.getElementById("comment").value
+	var comment = document.getElementById("input").value  
+  
+	var userNameText = document.createTextNode(username)
+	var commentText = document.createTextNode(comment)
 
-	var userNameText = document.createTextNode("Username: " + username)
-	var commentText = document.createTextNode("Comment: " + comment)
-
-	var newListItem = document.createElement("LI")
-	newListItem.className = "list-group-item"
-	var newUserName = document.createElement("H3")
+	var newListItem = document.createElement("h1")
+	newListItem.className = "comments"
+	var newUserName = document.createElement("p")
 	newUserName.appendChild(userNameText)
-	var newComment = document.createElement("P")
+	var newComment = document.createElement("p")
 	newComment.appendChild(commentText)
 
 	newListItem.appendChild(newUserName)

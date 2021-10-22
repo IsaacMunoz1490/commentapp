@@ -1,40 +1,23 @@
 body {
-	background-color: steelblue;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(106,29,253,1) 1%, rgba(93,134,173,1) 27%, rgba(147,146,141,1) 71%, rgba(86,165,196,1) 93%);
 	text-align:center;
-
+  font-family: 'Krona One', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
-
 h1 {
-	margin-bottom:50px;
+  color: white;
 }
-
 input {
-	font-size: 30px;
-	letter-spacing: 5px;
-	background-color: #fff;
+	font-size: 20px;
 	width: 60%;
-	height: 100px;
-	margin-bottom:40px;
-}
-textarea { 
-	font-size: 30px;
-	letter-spacing: 5px;
-	background-color: #fff;
-
-}
-
-li {
-	list-style-type: none;
-	text-align:left;
-	font-size:20px;
-}
-textarea {
-	height: 100px;
-	width: 60%;
+	height: 50px;
+	margin-bottom: 10px;
 }
 button {
-	font-size: 30px;
-	border-radius: 30%;
+  background: linear-gradient(45deg, #1CB5E0 0%, #000851 100%);
+  border-radius: 10px;
 	width: 40%;
-	height: 50px;
+	height: 40px;
+  font-size: 20px;
+}
 
